@@ -1,0 +1,410 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: linear-gradient(rgba(159, 89, 159, 0.7), rgba(53, 57, 70, 0.4)); 
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  padding-bottom:15px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0px;
+  
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #f0a3f0;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  
+}
+
+header a {
+  color: #000000;
+}
+
+nav ul {
+  list-style:none;
+  margin: 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* Hero Styles */
+#hero {
+  background: linear-gradient(rgba(243, 226, 243, 0.4), rgba(148, 34, 166, 0.5)), url("/home/kimathi/Downloads/p002.jpg"); 
+  background-position: center;
+  background-size: cover;
+  height:600px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.btn {
+  background-color: #ef0a0a;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #cc5500;
+  cursor: pointer;
+}
+
+/* Categories Styles */
+#categories {
+  padding: 80px 0;
+}
+
+#categories h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.category {
+  background-color: #f4d3f7;
+  border: 1px solid #aca7a7;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30px;
+  margin: 0 20px;
+  flex-basis: calc((100% / 3) - 40px);
+  transition: opacity 1s ease-in-out;
+}
+
+.category img {
+  float: left;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease-in;
+  
+}
+
+.category h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.category a {
+  color: #ff2600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category a:hover {
+  color: #cc5500;
+}
+
+/* Featured Products Styles */
+#featured {
+  padding: 80px 0;
+  
+}
+
+#featured h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.product {
+  background-color: #f4d3f7;
+  border: 1px solid #aca7a7;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(5, 5, 5, 0.5);
+}
+
+.product img {
+width: 100%;
+max-width: 400px;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+.product h4 {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.product p {
+margin-bottom: 30px;
+max-width: 300px;
+}
+
+.product .price {
+font-weight: bold;
+font-size: 1.5rem;
+color: #ff6600;
+}
+
+.product a {
+background-color: #ff6600;
+border: none;
+color: #ffffff;
+padding: 10px 20px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+transition: background-color 0.2s ease;
+display: block;
+margin: 0 auto;
+max-width: 200px;
+text-align: center;
+margin-top: 20px;
+}
+
+.product a:hover {
+background-color: #cc5500;
+cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+background-color: #444;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+footer a:hover {
+color: #b7b7b7;
+}
+
+/* History Section Styles */
+
+#history {
+  padding: 100px 0;
+  text-align: center;
+}
+/* About page */
+
+.about-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about-section img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.about-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-member {
+  width: 300px;
+  margin: 0 20px 50px;
+}
+
+.person img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.person h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.person p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.person a {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.person a:hover {
+  color: #c69e6d;
+}
+
+.about-quote {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-quote p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about-quote cite {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.about-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-contact-item {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.about-contact-item img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-contact-item h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-contact-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-contact-item a {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.about-contact-item a:hover {
+  color: #c69e6d;
+}
+/* Contact page styles */
+
+#contact {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Form styles */
+
+form {
+  background-position: 0cqmax;
+  max-width: 500px;
+
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display:flexbox;
+  width: 100%;
+  padding: 10px;
+}
