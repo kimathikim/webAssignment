@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 /* Hero Styles */
 #hero {
-  background: linear-gradient(rgba(243, 226, 243, 0.4), rgba(148, 34, 166, 0.5)), url("/home/kimathi/Downloads/p002.jpg"); 
+  background: linear-gradient(rgba(243, 226, 243, 0.4), rgba(148, 34, 166, 0.5)), url("p005.jpg"); 
   background-position: center;
   background-size: cover;
   height:600px;
