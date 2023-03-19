@@ -1,24 +1,18 @@
-/* Global Styles */
-@media only screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  div.example {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  div.example {
-    display: none;
-  }
-}
+
 /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+.fit
+{
+  background-color: rgb(255, 255, 255);
 }
-body {
+iframe
+{
+  border: none;
+  margin-top:50px;
+  position: absolute;
+   width:100%;
+   height:90%;
+}
+body{
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -41,6 +35,7 @@ body {
 
 /* Header Styles */
 header {
+  height:20%;
   flex-wrap: nowrap;
   background-color: #ff09ff;
   border-bottom: 1px solid #c18383;
