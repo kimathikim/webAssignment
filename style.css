@@ -9,11 +9,10 @@ body {
 }
 
 .logo{
-  padding-bottom:15px;
+  float: left;
+  padding-top: 10px;
   width: 30px;
   height: 30px;
-  margin-bottom: 0px;
-  
 }
 .container {
   max-width: 1200px;
@@ -23,24 +22,27 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #f0a3f0;
-  border-bottom: 1px solid #ccc;
-  position: fixed;
+  flex-wrap: nowrap;
+  background-color: #ff09ff;
+  border-bottom: 1px solid #c18383;
+  position:fixed;
   width: 100%;
-  z-index: 100;
-  
+  max-height: 50px;
+
 }
 
 header a {
   color: #000000;
 }
 
+
 nav ul {
   list-style:none;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-end;
 }
 
 nav ul li {
@@ -49,11 +51,11 @@ nav ul li {
 
 nav ul li a {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 nav ul li a:hover {
-  color: #ffffff;
+  color: #4459e4;
 }
 
 /* Hero Styles */
@@ -234,63 +236,32 @@ color: #b7b7b7;
 }
 /* About page */
 
-.about-container {
-  max-width: 1000px;
-  margin: 50px auto;
+#team {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+ 
+ 
 }
-
-.about-section {
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.about-section h2 {
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.about-section p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.about-section img {
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.about-team {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.about-member {
-  width: 300px;
-  margin: 0 20px 50px;
-}
-
 .person img {
-  width: 50%;
-  margin-bottom: 30px;
+  height: 300px;
+  max-width: 300px;
+  padding:10px;
+
 }
 
 .person h3 {
   font-size: 24px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom:0;
 }
 
 .person p {
   font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  margin-bottom: 10px;
+  line-height: 1;
+  text-align:justify;
+  margin-bottom: 20px;
 }
 
 .person a {
@@ -299,7 +270,7 @@ color: #b7b7b7;
   display: block;
 }
 
-.person a:hover {
+.person :hover {
   color: #c69e6d;
 }
 
@@ -385,7 +356,7 @@ color: #b7b7b7;
 
 form {
   background-position: 0cqmax;
-  max-width: 500px;
+  max-width: 600px;
 
   margin: 0 auto;
 }
