@@ -1,4 +1,13 @@
 /* Global Styles */
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
