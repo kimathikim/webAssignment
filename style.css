@@ -43,6 +43,7 @@ nav ul {
   padding-bottom: 30px;
   display: flex;
   justify-content:flex-end;
+ 
 }
 
 nav ul li {
@@ -51,7 +52,9 @@ nav ul li {
 
 nav ul li a {
   font-weight: bold;
-  font-size: 25px;
+  font-size: medium;
+  font-stretch:normal;
+  font-display: narrower;
 }
 
 nav ul li a:hover {
@@ -107,7 +110,7 @@ nav ul li a:hover {
   margin-bottom: 50px;
 }
 
-.category {
+.category{
   background-color: #f4d3f7;
   border: 1px solid #aca7a7;
   border-radius: 5px;
@@ -159,14 +162,22 @@ nav ul li a:hover {
   background-color: #f4d3f7;
   border: 1px solid #aca7a7;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(5, 5, 5, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30px 60px 30px 10px;
+  margin: 0 20px;
+  flex-basis: calc((100% / 3) - 40px);
+  transition: opacity 1s ease-in-out;
 }
 
 .product img {
-width: 100%;
-max-width: 400px;
-margin-bottom: 20px;
-padding: 10px;
+  float: left;
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 100px;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease-in;
+  
 }
 
 .product h4 {
@@ -239,8 +250,13 @@ color: #b7b7b7;
 #team {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap:wrap;
   align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin: 0 20px;
+  
+  transition: opacity 0s ease-in-out;
  
  
 }
