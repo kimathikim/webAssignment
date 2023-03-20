@@ -7,9 +7,9 @@
 iframe
 {
   border: none;
-  margin-top:50px;
+  padding-top: 50px;
   position: absolute;
-   width:50%;
+   width:100%;
    height:90%;
 }
 body{
@@ -35,7 +35,7 @@ body{
 
 /* Header Styles */
 header {
-  height:20%;
+  height:10%;
   flex-wrap: nowrap;
   background-color: #ff09ff;
   border-bottom: 1px solid #c18383;
