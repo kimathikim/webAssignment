@@ -412,3 +412,9 @@ textarea {
   width: 100%;
   padding: 10px;
 }
+.errorName, .errorEmail{
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: none;
+}
